@@ -9,17 +9,17 @@ main {
   min-height: 80vh;
   max-width: 1024px;
   margin: 35px auto;
-  background: rgb(218, 192, 192);
+  background: rgb(214, 181, 181);
   padding: 15px;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
 .container {
-  background-color: rgb(77, 223, 203);
+  background-color: rgb(118, 207, 195);
 }
 
 .active {
-  color: rgb(34, 90, 136);
+  color: rgb(18, 18, 19);
 }
 .grid-view {
   display: flex;
@@ -43,15 +43,28 @@ main {
 
 header h1 {
   text-align: center;
-  background-color: rgb(245, 220, 187);
+  color: rgb(161, 235, 231);
+  background-color: rgb(14, 82, 114);
   width: 100%;
+  height: 85px;
+  padding-top: 1.8rem;
   margin-left: auto;
   margin-right: auto;
 }
 
+.tab-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.character-list .grid-view {
+  background-color: tan;
+}
+
 .character-card {
   border: 2px solid black !important;
-  background-color:  rgb(245, 220, 187) !important;
+  background-color:  rgb(92, 101, 180) !important;
   text-align: center !important; 
   width: 85% !important;
   height: 200px !important;
