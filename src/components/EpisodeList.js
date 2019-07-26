@@ -20,7 +20,7 @@ export default function EpisodeList() {
         <h2>
             {episode.map(results => (
                 <EpisodeCard name={results.name}
-                    episodeId={results.id}
+                    id={results.id}
                     airDate={results.air_date}
                     episode={results.episode}
                     epiCharacters={results.characters} />

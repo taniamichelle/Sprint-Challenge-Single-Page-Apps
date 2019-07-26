@@ -20,7 +20,7 @@ export default function LocationList() {
         <h2>
             {location.map(results => (
                 <LocationCard name={results.name}
-                    locationId={results.id}
+                    id={results.id}
                     type={results.type}
                     dimension={results.dimension}
                     residents={results.residents} />
