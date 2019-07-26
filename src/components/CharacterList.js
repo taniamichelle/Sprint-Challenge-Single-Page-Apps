@@ -15,7 +15,7 @@ export default function CharacterList() {
       .catch(err => {
         console.log('error occurred', error);
       })
-  }, [character])
+  }, [character, error])
 
   return <section className='character-list grid-view'>
     <h2>
@@ -30,18 +30,3 @@ export default function CharacterList() {
   </section>
 
 }
-
-
-
-{/* <div className='characters'>
-  <div className='charCards'>
-    {char.map(results => (
-      <CharCard name={results.name}
-        gender={results.gender}
-        age={results.birth_year}
-        height={results.height}
-        mass={results.mass}
-        hair={results.hair_color}
-        eyes={results.eye_color} />
-    ))}
-  </div> */}
